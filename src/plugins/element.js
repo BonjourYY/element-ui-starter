@@ -1,6 +1,9 @@
-import Vue from 'vue'
-import Element from 'element-ui'
-import '@/style/element-variables.scss'
+import Vue from 'vue';
+import Element from 'element-ui';
+import '@/style/element-variables.scss';
 import 'element-ui/lib/theme-chalk/display.css';
 
-Vue.use(Element)
+Vue.use(Element);
+
+let user = {name: 'fan'};
+console.log(user);
