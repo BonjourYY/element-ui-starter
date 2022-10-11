@@ -4,6 +4,3 @@ import '@/style/element-variables.scss';
 import 'element-ui/lib/theme-chalk/display.css';
 
 Vue.use(Element);
-
-let user = {name: 'fan'};
-console.log(user);

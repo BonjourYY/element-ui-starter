@@ -1,12 +1,14 @@
 <template>
-	<div id="app">
-		<img src="./assets/logo.png" />
-		<ElementLayout></ElementLayout>
-		<ElementContainer></ElementContainer>
-		<ElementIcon></ElementIcon>
-		<ElementButton></ElementButton>
-		<ElementLink></ElementLink>
-	</div>
+  <div id="app">
+    <img src="./assets/logo.png" />
+    <ElementLayout></ElementLayout>
+    <ElementContainer></ElementContainer>
+    <ElementIcon></ElementIcon>
+    <ElementButton></ElementButton>
+    <ElementLink></ElementLink>
+    <ElementRadio></ElementRadio>
+    <ElementCheckBox></ElementCheckBox>
+  </div>
 </template>
 
 <script>
@@ -15,32 +17,35 @@ import ElementContainer from './components/ElementContainer.vue';
 import ElementIcon from './components/ElementIcon.vue';
 import ElementButton from './components/ElementButton.vue';
 import ElementLink from './components/ElementLink.vue';
+import ElementRadio from './components/ElementRadio.vue';
+import ElementCheckBox from './components/ElementCheckBox.vue';
 export default {
-	name: 'app',
-	components: {
-		ElementLayout,
-		ElementContainer,
-		ElementIcon,
-		ElementButton,
-		ElementLink,
-	},
-	methods: {
-		getMessages() {
-			console.log('s');
-		},
-	},
+  name: 'app',
+  components: {
+    ElementLayout,
+    ElementContainer,
+    ElementIcon,
+    ElementButton,
+    ElementLink,
+    ElementRadio,
+    ElementCheckBox,
+  },
+  methods: {
+    getMessages() {
+      console.log('s');
+    },
+  },
 };
 </script>
 
 <style>
 #app {
-	font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
-		'微软雅黑', Arial, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align: center;
-	color: #2c3e50;
-	margin-top: 60px;
-	overflow: hidden;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+  overflow: hidden;
 }
 </style>
