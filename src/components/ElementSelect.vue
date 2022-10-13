@@ -1,7 +1,7 @@
 <template>
   <div>
-    <el-select v-model="selectedValue" placeholder="请选择水果" :multiple="true" filterable remote :remote-method="getRemote">
-      <el-option v-for="(fruit, index) in fruits" :key="index" :lable="fruit.label" :value="fruit.value"></el-option>
+    <el-select v-model="selectedValue" placeholder="请选择水果" :multiple="true" filterable remote :remote-method="getRemote" allow-create default-first-option value-key="label">
+      <el-option v-for="(fruit, index) in fruits" :key="index" :value="fruit" :label="fruit.label"></el-option>
     </el-select>
     <p>{{ selectedValue }}</p>
   </div>
@@ -12,7 +12,7 @@ export default {
   name: 'ElementSelect',
   data() {
     return {
-      selectedValue: null,
+      selectedValue: [],
       fruits: null,
       lists: null,
       states: ['apple', 'orange', 'banana'],
