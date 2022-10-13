@@ -11,6 +11,7 @@
     <ElementInput></ElementInput>
     <ElementInputNumber></ElementInputNumber>
     <ElementSelect></ElementSelect>
+    <ElementCascader></ElementCascader>
   </div>
 </template>
 
@@ -25,6 +26,7 @@ import ElementCheckBox from './components/ElementCheckBox.vue';
 import ElementInput from './components/ElementInput.vue';
 import ElementInputNumber from './components/ElementInputNumber.vue';
 import ElementSelect from './components/ElementSelect.vue';
+import ElementCascader from './components/ElementCascader.vue';
 export default {
   name: 'app',
   components: {
@@ -38,6 +40,7 @@ export default {
     ElementInput,
     ElementInputNumber,
     ElementSelect,
+    ElementCascader,
   },
   methods: {
     getMessages() {
