@@ -8,6 +8,9 @@
     <ElementLink></ElementLink>
     <ElementRadio></ElementRadio>
     <ElementCheckBox></ElementCheckBox>
+    <ElementInput></ElementInput>
+    <ElementInputNumber></ElementInputNumber>
+    <ElementSelect></ElementSelect>
   </div>
 </template>
 
@@ -19,6 +22,9 @@ import ElementButton from './components/ElementButton.vue';
 import ElementLink from './components/ElementLink.vue';
 import ElementRadio from './components/ElementRadio.vue';
 import ElementCheckBox from './components/ElementCheckBox.vue';
+import ElementInput from './components/ElementInput.vue';
+import ElementInputNumber from './components/ElementInputNumber.vue';
+import ElementSelect from './components/ElementSelect.vue';
 export default {
   name: 'app',
   components: {
@@ -29,6 +35,9 @@ export default {
     ElementLink,
     ElementRadio,
     ElementCheckBox,
+    ElementInput,
+    ElementInputNumber,
+    ElementSelect,
   },
   methods: {
     getMessages() {
