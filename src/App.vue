@@ -12,6 +12,8 @@
     <ElementInputNumber></ElementInputNumber>
     <ElementSelect></ElementSelect>
     <ElementCascader></ElementCascader>
+    <ElementSwitch></ElementSwitch>
+    <ElementSlider></ElementSlider>
   </div>
 </template>
 
@@ -27,6 +29,8 @@ import ElementInput from './components/ElementInput.vue';
 import ElementInputNumber from './components/ElementInputNumber.vue';
 import ElementSelect from './components/ElementSelect.vue';
 import ElementCascader from './components/ElementCascader.vue';
+import ElementSwitch from './components/ElementSwitch.vue';
+import ElementSlider from './components/ElementSlider.vue';
 export default {
   name: 'app',
   components: {
@@ -41,6 +45,8 @@ export default {
     ElementInputNumber,
     ElementSelect,
     ElementCascader,
+    ElementSwitch,
+    ElementSlider,
   },
   methods: {
     getMessages() {
