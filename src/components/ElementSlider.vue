@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-slider v-model="value" :format-tooltip="formatTooltip" range :marks="marks"></el-slider>
+    <el-slider v-model="value" :format-tooltip="formatTooltip" :marks="marks"></el-slider>
   </div>
 </template>
 
