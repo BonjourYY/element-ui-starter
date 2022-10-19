@@ -15,6 +15,8 @@
     <ElementSwitch></ElementSwitch>
     <ElementSlider></ElementSlider>
     <ElementTimePicker></ElementTimePicker>
+    <ElementDatePicker></ElementDatePicker>
+    <ElementDatetimePicker></ElementDatetimePicker>
   </div>
 </template>
 
@@ -33,6 +35,8 @@ import ElementCascader from './components/ElementCascader.vue';
 import ElementSwitch from './components/ElementSwitch.vue';
 import ElementSlider from './components/ElementSlider.vue';
 import ElementTimePicker from './components/ElementTimePicker.vue';
+import ElementDatePicker from './components/ElementDatePicker.vue';
+import ElementDatetimePicker from './components/ElementDatetimePicker.vue';
 export default {
   name: 'app',
   components: {
@@ -50,6 +54,8 @@ export default {
     ElementSwitch,
     ElementSlider,
     ElementTimePicker,
+    ElementDatePicker,
+    ElementDatetimePicker,
   },
   methods: {
     getMessages() {
