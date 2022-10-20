@@ -17,10 +17,12 @@
     <ElementTimePicker></ElementTimePicker>
     <ElementDatePicker></ElementDatePicker>
     <ElementDatetimePicker></ElementDatetimePicker>
+    <ElementUpload></ElementUpload>
   </div>
 </template>
 
 <script>
+// 想一下有没有办法，可以循环导入所有组件
 import ElementLayout from './components/ElementLayout.vue';
 import ElementContainer from './components/ElementContainer.vue';
 import ElementIcon from './components/ElementIcon.vue';
@@ -37,6 +39,7 @@ import ElementSlider from './components/ElementSlider.vue';
 import ElementTimePicker from './components/ElementTimePicker.vue';
 import ElementDatePicker from './components/ElementDatePicker.vue';
 import ElementDatetimePicker from './components/ElementDatetimePicker.vue';
+import ElementUpload from './components/ElementUpload.vue';
 export default {
   name: 'app',
   components: {
@@ -56,6 +59,7 @@ export default {
     ElementTimePicker,
     ElementDatePicker,
     ElementDatetimePicker,
+    ElementUpload,
   },
   methods: {
     getMessages() {
