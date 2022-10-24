@@ -18,6 +18,7 @@
     <ElementDatePicker></ElementDatePicker>
     <ElementDatetimePicker></ElementDatetimePicker>
     <ElementUpload></ElementUpload>
+    <ElementRate></ElementRate>
   </div>
 </template>
 
@@ -40,6 +41,7 @@ import ElementTimePicker from './components/ElementTimePicker.vue';
 import ElementDatePicker from './components/ElementDatePicker.vue';
 import ElementDatetimePicker from './components/ElementDatetimePicker.vue';
 import ElementUpload from './components/ElementUpload.vue';
+import ElementRate from './components/ElementRate.vue';
 export default {
   name: 'app',
   components: {
@@ -60,6 +62,7 @@ export default {
     ElementDatePicker,
     ElementDatetimePicker,
     ElementUpload,
+    ElementRate,
   },
   methods: {
     getMessages() {
