@@ -19,51 +19,15 @@
     <ElementDatetimePicker></ElementDatetimePicker>
     <ElementUpload></ElementUpload>
     <ElementRate></ElementRate>
+    <ElementColorPicker></ElementColorPicker>
+    <ElementTransfer></ElementTransfer>
   </div>
 </template>
 
 <script>
-// 想一下有没有办法，可以循环导入所有组件
-import ElementLayout from './components/ElementLayout.vue';
-import ElementContainer from './components/ElementContainer.vue';
-import ElementIcon from './components/ElementIcon.vue';
-import ElementButton from './components/ElementButton.vue';
-import ElementLink from './components/ElementLink.vue';
-import ElementRadio from './components/ElementRadio.vue';
-import ElementCheckBox from './components/ElementCheckBox.vue';
-import ElementInput from './components/ElementInput.vue';
-import ElementInputNumber from './components/ElementInputNumber.vue';
-import ElementSelect from './components/ElementSelect.vue';
-import ElementCascader from './components/ElementCascader.vue';
-import ElementSwitch from './components/ElementSwitch.vue';
-import ElementSlider from './components/ElementSlider.vue';
-import ElementTimePicker from './components/ElementTimePicker.vue';
-import ElementDatePicker from './components/ElementDatePicker.vue';
-import ElementDatetimePicker from './components/ElementDatetimePicker.vue';
-import ElementUpload from './components/ElementUpload.vue';
-import ElementRate from './components/ElementRate.vue';
 export default {
   name: 'app',
-  components: {
-    ElementLayout,
-    ElementContainer,
-    ElementIcon,
-    ElementButton,
-    ElementLink,
-    ElementRadio,
-    ElementCheckBox,
-    ElementInput,
-    ElementInputNumber,
-    ElementSelect,
-    ElementCascader,
-    ElementSwitch,
-    ElementSlider,
-    ElementTimePicker,
-    ElementDatePicker,
-    ElementDatetimePicker,
-    ElementUpload,
-    ElementRate,
-  },
+  components: {},
   methods: {
     getMessages() {
       console.log('s');
@@ -77,7 +41,7 @@ export default {
   font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: #2c3e50;
   margin-top: 60px;
   overflow: hidden;
