@@ -21,6 +21,7 @@
     <ElementRate></ElementRate>
     <ElementColorPicker></ElementColorPicker>
     <ElementTransfer></ElementTransfer>
+    <ElementForm></ElementForm>
   </div>
 </template>
 
