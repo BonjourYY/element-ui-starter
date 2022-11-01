@@ -22,6 +22,7 @@
     <ElementColorPicker></ElementColorPicker>
     <ElementTransfer></ElementTransfer>
     <ElementForm></ElementForm>
+    <ElementTag></ElementTag>
   </div>
 </template>
 
