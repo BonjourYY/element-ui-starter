@@ -23,13 +23,13 @@
     <ElementTransfer></ElementTransfer>
     <ElementForm></ElementForm>
     <ElementTag></ElementTag>
+    <ElementProgress></ElementProgress>
   </div>
 </template>
 
 <script>
 export default {
   name: 'app',
-  components: {},
   methods: {
     getMessages() {
       console.log('s');
