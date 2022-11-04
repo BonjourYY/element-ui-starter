@@ -45,11 +45,7 @@ export default {
   },
   computed: {
     statusMethod() {
-      if (this.percentage === 100) {
-        return 'success';
-      } else {
-        return '';
-      }
+      return this.percentage === 100 ? 'success' : '';
     },
   },
 };

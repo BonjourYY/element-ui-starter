@@ -24,6 +24,7 @@
     <ElementForm></ElementForm>
     <ElementTag></ElementTag>
     <ElementProgress></ElementProgress>
+    <ElementTree></ElementTree>
   </div>
 </template>
 
