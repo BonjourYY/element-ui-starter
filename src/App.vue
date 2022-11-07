@@ -25,6 +25,7 @@
     <ElementTag></ElementTag>
     <ElementProgress></ElementProgress>
     <ElementTree></ElementTree>
+    <ElementPagination></ElementPagination>
   </div>
 </template>
 

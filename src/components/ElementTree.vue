@@ -35,6 +35,7 @@ export default {
       if (node.data.name === 'zoom1') {
         let hasChild;
         hasChild = true;
+        console.log(hasChild);
       }
       if (node.data.name === 'zoom2') {
         console.log(1);
