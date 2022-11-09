@@ -26,6 +26,10 @@
     <ElementProgress></ElementProgress>
     <ElementTree></ElementTree>
     <ElementPagination></ElementPagination>
+    <ElementBadge></ElementBadge>
+    <ElementAvatar></ElementAvatar>
+    <ElementSkeleton></ElementSkeleton>
+    <ElementEmpty></ElementEmpty>
   </div>
 </template>
 
