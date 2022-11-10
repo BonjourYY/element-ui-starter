@@ -31,6 +31,8 @@
     <ElementSkeleton></ElementSkeleton>
     <ElementEmpty></ElementEmpty>
     <ElementDescriptions></ElementDescriptions>
+    <ElementResult></ElementResult>
+    <ElementAlert></ElementAlert>
   </div>
 </template>
 
