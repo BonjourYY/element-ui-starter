@@ -30,6 +30,7 @@
     <ElementAvatar></ElementAvatar>
     <ElementSkeleton></ElementSkeleton>
     <ElementEmpty></ElementEmpty>
+    <ElementDescriptions></ElementDescriptions>
   </div>
 </template>
 
