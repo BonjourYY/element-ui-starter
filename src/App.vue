@@ -33,6 +33,7 @@
     <ElementDescriptions></ElementDescriptions>
     <ElementResult></ElementResult>
     <ElementAlert></ElementAlert>
+    <ElementLoading></ElementLoading>
   </div>
 </template>
 
