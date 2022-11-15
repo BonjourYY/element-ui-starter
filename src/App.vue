@@ -36,6 +36,7 @@
     <ElementLoading></ElementLoading>
     <ElementMessage></ElementMessage>
     <ElementMessageBox></ElementMessageBox>
+    <ElementNotification></ElementNotification>
   </div>
 </template>
 
