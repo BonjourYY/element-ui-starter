@@ -34,6 +34,7 @@
     <ElementResult></ElementResult>
     <ElementAlert></ElementAlert>
     <ElementLoading></ElementLoading>
+    <ElementMessage></ElementMessage>
   </div>
 </template>
 
