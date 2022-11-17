@@ -38,6 +38,7 @@
     <ElementMessageBox></ElementMessageBox>
     <ElementNotification></ElementNotification>
     <ElementTabs></ElementTabs>
+    <ElementStatistic></ElementStatistic>
   </div>
 </template>
 
