@@ -39,6 +39,7 @@
     <ElementNotification></ElementNotification>
     <ElementTabs></ElementTabs>
     <ElementStatistic></ElementStatistic>
+    <ElementNavMenu></ElementNavMenu>
   </div>
 </template>
 
