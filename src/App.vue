@@ -39,6 +39,10 @@
     <ElementNotification></ElementNotification>
     <ElementTabs></ElementTabs>
     <ElementStatistic></ElementStatistic>
+    <ElementBreadCrumb></ElementBreadCrumb>
+    <ElementPageHeader></ElementPageHeader>
+    <ElementDropdown></ElementDropdown>
+    <ElementSteps></ElementSteps>
   </div>
 </template>
 
