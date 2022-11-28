@@ -44,6 +44,7 @@
     <ElementPageHeader></ElementPageHeader>
     <ElementDropdown></ElementDropdown>
     <ElementSteps></ElementSteps>
+    <ElementDialog></ElementDialog>
   </div>
 </template>
 
