@@ -45,6 +45,9 @@
     <ElementDropdown></ElementDropdown>
     <ElementSteps></ElementSteps>
     <ElementDialog></ElementDialog>
+    <ElementTooltip></ElementTooltip>
+    <ElementPopover></ElementPopover>
+    <ElementPopconfirm></ElementPopconfirm>
   </div>
 </template>
 
