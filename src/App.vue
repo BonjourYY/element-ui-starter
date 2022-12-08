@@ -48,6 +48,7 @@
     <ElementTooltip></ElementTooltip>
     <ElementPopover></ElementPopover>
     <ElementPopconfirm></ElementPopconfirm>
+    <ElementCard></ElementCard>
   </div>
 </template>
 
