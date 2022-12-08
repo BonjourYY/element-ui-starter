@@ -49,6 +49,7 @@
     <ElementPopover></ElementPopover>
     <ElementPopconfirm></ElementPopconfirm>
     <ElementCard></ElementCard>
+    <ElementCarousel></ElementCarousel>
   </div>
 </template>
 
