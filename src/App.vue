@@ -50,6 +50,9 @@
     <ElementPopconfirm></ElementPopconfirm>
     <ElementCard></ElementCard>
     <ElementCarousel></ElementCarousel>
+    <ElementCollapse></ElementCollapse>
+    <ElementDivider></ElementDivider>
+    <ElementTimeline></ElementTimeline>
   </div>
 </template>
 
