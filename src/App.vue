@@ -53,6 +53,7 @@
     <ElementCollapse></ElementCollapse>
     <ElementDivider></ElementDivider>
     <ElementTimeline></ElementTimeline>
+    <ElementCalendar></ElementCalendar>
   </div>
 </template>
 
