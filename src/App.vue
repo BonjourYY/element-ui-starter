@@ -54,6 +54,9 @@
     <ElementDivider></ElementDivider>
     <ElementTimeline></ElementTimeline>
     <ElementCalendar></ElementCalendar>
+    <ElementBacktop></ElementBacktop>
+    <ElementInfinitescroll></ElementInfinitescroll>
+    <ElementDrawer></ElementDrawer>
   </div>
 </template>
 
