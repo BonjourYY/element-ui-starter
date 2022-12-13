@@ -57,17 +57,13 @@
     <ElementBacktop></ElementBacktop>
     <ElementInfinitescroll></ElementInfinitescroll>
     <ElementDrawer></ElementDrawer>
+    <!-- <ElementImage></ElementImage> -->
   </div>
 </template>
 
 <script>
 export default {
   name: 'app',
-  methods: {
-    getMessages() {
-      console.log('s');
-    },
-  },
 };
 </script>
 

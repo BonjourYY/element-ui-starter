@@ -24,8 +24,8 @@ export default {
   name: 'ElementDrawer',
   data() {
     return {
-      visible1: true,
-      visible2: true,
+      visible1: false,
+      visible2: false,
     };
   },
   methods: {
